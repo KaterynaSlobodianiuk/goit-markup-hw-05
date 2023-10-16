@@ -675,7 +675,7 @@ img {
 
 .modal-close-button:hover,
 .modal-close-button:focus+.close-button-icon {
-  fill: white;
+  fill: #ffffff;
 }
 
 .modal-title {
@@ -724,6 +724,7 @@ img {
   margin-bottom: 4px;
   display: block;
   width: 100%;
+  display: flex;
 }
 
 .modal-field {
@@ -756,6 +757,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   font-style: normal;
   font-weight: 400;
   outline: transparent;
